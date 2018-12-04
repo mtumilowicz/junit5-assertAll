@@ -51,9 +51,9 @@ subsequent code in the same block will be skipped.
                     assertNotNull(person);
         
                     assertAll(
-                            () -> assertThat(person.name, is("name1")),
-                            () -> assertThat(person.surname, is("surname1")),
-                            () -> assertThat(person.age, is(11)));
+                            () -> assertThat(person.name, is("name")),
+                            () -> assertThat(person.surname, is("surname")),
+                            () -> assertThat(person.age, is(10)));
                 }
         );
         ```
@@ -66,9 +66,9 @@ subsequent code in the same block will be skipped.
                     assertNotNull(person);
         
                     assertAll(
-                            () -> assertThat(person.name, is("name1")),
-                            () -> assertThat(person.surname, is("surname1")),
-                            () -> assertThat(person.age, is(11)));
+                            () -> assertThat(person.name, is("name")),
+                            () -> assertThat(person.surname, is("surname")),
+                            () -> assertThat(person.age, is(10)));
                 }
         );
         ```
@@ -80,8 +80,8 @@ subsequent code in the same block will be skipped.
         so:
         ```
         assertAll(
-                  () -> assertThat(person.name, is("name1")),
-                  () -> assertThat(person.surname, is("surname1")),
-                  () -> assertThat(person.age, is(11)));
+                  () -> assertThat(person.name, is("name")),
+                  () -> assertThat(person.surname, is("surname")),
+                  () -> assertThat(person.age, is(10)));
         ```
         **is not evaluated.**
