@@ -1,10 +1,10 @@
 # junit5-assertAll
-Example of assertAll feature of Junit5.
+Example of `assertAll` feature of Junit5.
 
 _Reference_: https://junit.org/junit5/docs/current/user-guide/#writing-tests-assertions
 
 # project description
-* In a grouped assertion (assertAll) all assertions are 
+* In a grouped by `assertAll` all assertions are 
 executed, and any failures will be reported together.
     * success
         ```
