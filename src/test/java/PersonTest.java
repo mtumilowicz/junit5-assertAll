@@ -32,7 +32,7 @@ class PersonTest {
                     assertAll(
                             () -> assertThat(person.name, is("name")),
                             () -> assertThat(person.surname, is("surname")),
-                            () -> assertThat(person.age, is(11)));
+                            () -> assertThat(person.age, is(10)));
                 }
         );
     }
