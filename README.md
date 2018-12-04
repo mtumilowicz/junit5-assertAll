@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/junit5-assertAll.svg?branch=master)](https://travis-ci.com/mtumilowicz/junit5-assertAll)
+
 # junit5-assertAll
 Example of `assertAll` feature of Junit5.
 
